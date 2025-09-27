@@ -41,7 +41,7 @@ To further evaluate the model, we used the test set to compute a detailed **clas
 
 We also utilized **Grad-CAM** visualizations to better interpret the model’s decision-making process. These heatmaps highlighted the regions of images that most influenced the model’s predictions, helping us understand whether the model was focusing on the correct bird features or irrelevant background areas.  
 
-Finally, **hyperparameter optimization** experiments were conducted over learning rate, dropout rate, and batch size. The best configuration was found to be a learning rate of **0.001**, a dropout rate of **0.3**, and a batch size of **32**, resulting in improved validation accuracy and reduced overfitting.  
+Finally, **hyperparameter optimization** experiments were conducted over learning rate, dropout rate, and batch size. The best configuration was found to be a learning rate of **0.003**, a dropout rate of **0.2**, and a batch size of **16**, resulting in improved validation accuracy and reduced overfitting.  
 
 Overall, the project demonstrated a clear performance gain through data augmentation, hyperparameter tuning, and interpretability techniques, laying the groundwork for potential improvements such as transfer learning or more balanced datasets.
 
