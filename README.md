@@ -25,7 +25,6 @@ Data augmentation techniques such as rotation, flipping, and color jitter were a
 3. **Model Training:**  
    - Cross-entropy loss function  
    - Adam optimizer  
-   - Early stopping based on validation accuracy  
    - Hyperparameter tuning for learning rate, dropout, and batch size  
 
 4. **Model Evaluation:**  
