@@ -36,7 +36,7 @@ Data augmentation techniques such as rotation, flipping, and color jitter were a
 
 ## Results Summary
 
-The experiments conducted throughout the project provided valuable insights into the performance of our CNN-based bird species classification model. During the training phase, we monitored both the training and validation accuracy across multiple epochs. The model achieved a validation accuracy of approximately **73.9%**, which served as an important indicator of its ability to generalize to unseen data.  
+The experiments conducted throughout the project provided valuable insights into the performance of our CNN-based bird species classification model. During the training phase, we monitored both the training and validation accuracy across multiple epochs. The model achieved a validation accuracy of approximately **71.7%**, which served as an important indicator of its ability to generalize to unseen data.  
 
 To further evaluate the model, we used the test set to compute a detailed **classification report**. This report revealed that while certain classes achieved high precision and recall scores, others suffered due to the **class imbalance** in the dataset. Some species with very few samples were particularly challenging for the model, leading to lower F1-scores in those categories.  
 
